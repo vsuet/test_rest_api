@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="315ae3bd-baac-4041-82f9-ad0512acbc1e" name="starinin" url="http://starinin.mentor4u.ru/">
+        <fileTransfer rootFolder="/starinin" host="ftp60.hostland.ru" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

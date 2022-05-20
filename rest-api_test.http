@@ -1,0 +1,51 @@
+POST http://starinin.mentor4u.ru/users
+Content-Type: application/x-www-form-urlencoded
+
+name=user10&password=12345&role_id=1
+
+<> 2022-05-20T110226.200.html
+<> 2022-05-20T110138.200.html
+<> 2022-05-20T110039.200.html
+<> 2022-05-20T105943.200.html
+<> 2022-05-20T105820.200.html
+<> 2022-05-20T105719.200.html
+
+###
+POST http://starinin.mentor4u.ru/users
+Content-Type: application/json
+
+{"name":"user10", "password":"12345", "role":1}
+
+<> 2022-05-20T105343.200.html
+<> 2022-05-20T105304.200.html
+<> 2022-05-20T105134.200.html
+<> 2022-05-20T104838.200.html
+<> 2022-05-20T104659.200.html
+<> 2022-05-20T103858.200.html
+<> 2022-05-20T103645.200.html
+
+###
+GET http://starinin.mentor4u.ru/users/qwer
+Accept: application/json
+
+<> 2022-05-20T103530.200.html
+
+###
+GET http://starinin.mentor4u.ru/users/222
+Accept: application/json
+
+<> 2022-05-20T103525.200.html
+
+###
+GET http://starinin.mentor4u.ru/users/2
+Accept: application/json
+
+<> 2022-05-20T103452.200.html
+
+###
+GET http://starinin.mentor4u.ru/users
+Accept: application/json
+
+<> 2022-05-20T103423.200.html
+
+###
